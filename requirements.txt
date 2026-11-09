@@ -1,1 +1,13 @@
-python 
+# --- Core Data Processing & Math ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Machine Learning Model ---
+xgboost>=2.0.0
+
+# --- Database & SQL ORM ---
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# --- Web UI (Member 3 Dashboard Integration) ---
+streamlit>=1.30.0

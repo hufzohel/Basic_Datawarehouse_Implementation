@@ -1,7 +1,7 @@
 # src/dss/train.py
 
 import os
-from src.dss.forecasting import XGBoostForecaster
+from src.dss.forecast import XGBoostForecaster
 
 def train_pipeline(db_uri: str = "postgresql://user:password@localhost:5432/olist_dw", 
                    model_save_path: str = "src/dss/models/xgboost_sales.json"):

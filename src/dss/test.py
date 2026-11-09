@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 import xgboost as xgb
-from src.dss.forecasting import XGBoostForecaster
+from src.dss.forecast import XGBoostForecaster
 
 def test_pipeline(model_path: str = "src/dss/models/xgboost_sales.json", 
                   db_uri: str = "postgresql://user:password@localhost:5432/olist_dw"):

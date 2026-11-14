@@ -1,0 +1,14 @@
+[theme]
+base = "light"
+primaryColor = "#21765b"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f3"
+textColor = "#172d26"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hide the developer toolbar (Deploy button); the app menu stays available.
+toolbarMode = "viewer"

@@ -49,3 +49,13 @@ coverage.xml
 .vscode/
 *.swp
 *.swo
+# Local database and runtime
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+.pytest_cache/
+
+# Trained model artifacts
+src/dss/models/

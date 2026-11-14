@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: olist_dw
+      POSTGRES_USER: olist
+      POSTGRES_PASSWORD: olist_local
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - warehouse_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U olist -d olist_dw"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+volumes:
+  warehouse_data:

@@ -4,6 +4,7 @@ pandas>=2.0.0
 
 # --- Machine Learning Model ---
 xgboost>=2.0.0
+scikit-learn
 
 # --- Database & SQL ORM ---
 SQLAlchemy>=2.0.0
